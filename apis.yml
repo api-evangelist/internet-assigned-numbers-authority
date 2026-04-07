@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Standards
   - Domains
-  - Protocols
   - Media Types
+  - Protocols
+  - Standards
   - Time Zones
 url: >-
   https://raw.githubusercontent.com/api-evangelist/internet-assigned-numbers-authority/refs/heads/main/apis.yml
@@ -27,9 +27,9 @@ apis:
       parameters, and time zone data.
     humanURL: https://www.iana.org/
     tags:
-      - Standards
       - Domains
       - Protocols
+      - Standards
     properties:
       - type: Documentation
         url: https://www.iana.org/
