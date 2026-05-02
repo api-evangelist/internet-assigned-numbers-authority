@@ -1,0 +1,31 @@
+aid: internet-assigned-numbers-authority
+name: Internet Assigned Numbers Authority Rules
+description: >-
+  Validation, governance, and operational rules applied to the IANA APIs.json
+  index and associated machine-readable registry artifacts.
+type: standard
+profile:
+  - apis.json
+governance:
+  source: api-evangelist
+  steward: Kin Lane
+  visibility: public
+rules:
+  - id: apisjson-required-fields
+    description: APIs.json must include aid, name, description, url, created, modified, and maintainers.
+    severity: error
+  - id: apisjson-tags-upper-case
+    description: All tags must use upper-case first letters.
+    severity: warn
+  - id: api-baseurl-required
+    description: Each documented API or registry should declare a baseURL when known.
+    severity: warn
+  - id: openapi-non-empty
+    description: OpenAPI specs must reference real, validated endpoints. Stub or empty specs are not permitted.
+    severity: error
+  - id: artifact-location
+    description: All OpenAPI specs live under openapi/{repo}-openapi.yml.
+    severity: error
+  - id: bulk-data-acceptable
+    description: Where IANA distributes data via rsync, FTP, or release archives, those count as machine-readable surfaces and should be linked as Bulk properties.
+    severity: info
