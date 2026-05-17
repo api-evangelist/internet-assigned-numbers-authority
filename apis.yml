@@ -75,7 +75,7 @@ apis:
 common:
   - type: Website
     url: https://www.iana.org/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/iana-org
   - type: News
     url: https://www.iana.org/news
