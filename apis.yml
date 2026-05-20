@@ -73,6 +73,8 @@ apis:
       - type: Documentation
         url: https://www.iana.org/domains/root/db
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ianaai
   - type: Website
     url: https://www.iana.org/
   - type: GitHubOrganization
