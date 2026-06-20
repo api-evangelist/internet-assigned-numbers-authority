@@ -8,7 +8,7 @@ description: >-
   Internet relies on. Bulk registry data is published as machine-readable
   files distributed via rsync and FTP rather than through a public REST API.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Domains
   - DNS
