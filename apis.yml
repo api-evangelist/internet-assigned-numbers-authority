@@ -73,6 +73,8 @@ apis:
       - type: Documentation
         url: https://www.iana.org/domains/root/db
 common:
+  - type: DomainSecurity
+    url: security/internet-assigned-numbers-authority-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/ianaai
   - type: Website
@@ -81,6 +83,8 @@ common:
     url: https://github.com/iana-org
   - type: News
     url: https://www.iana.org/news
+  - url: https://www.iana.org/news.atom
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

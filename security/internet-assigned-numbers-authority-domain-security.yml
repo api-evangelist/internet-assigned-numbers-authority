@@ -1,0 +1,29 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.iana.org
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 28 21:37:55 2026 GMT
+  hsts: true
+  hsts_max_age: 48211200
+- host: data.iana.org
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 27 10:59:55 2026 GMT
+  hsts: true
+  hsts_max_age: 48211200
+domains:
+- domain: iana.org
+  dnssec: true
+  caa:
+  - 0 issue "sectigo.com"
+  - 0 issuemail "sectigo.com"
+  - 0 issuewild "sectigo.com"
+  - 0 iodef "mailto:caa-reports@icann.org"
+  - 0 issue "digicert.com"
+  - 0 issue "letsencrypt.org"
+  spf: true
+  dmarc: true
+  dmarc_policy: none
