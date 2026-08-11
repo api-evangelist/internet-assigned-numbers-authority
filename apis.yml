@@ -51,8 +51,6 @@ apis:
     properties:
       - type: Documentation
         url: https://www.iana.org/protocols
-      - type: Bulk
-        url: rsync://rsync.iana.org/assignments
   - aid: internet-assigned-numbers-authority:iana-time-zone-database
     name: IANA Time Zone Database
     description: >-
