@@ -33,7 +33,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/internet-assigned-numbers-authority/refs/heads/main/apis.yml
 created: '2025-08-25'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: internet-assigned-numbers-authority:iana-protocol-registries
     name: IANA Protocol Registries
