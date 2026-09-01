@@ -39,7 +39,7 @@ tags:
   - Media Types
   - Protocols
   - Standards
-  - Time Zones
+  - Timezones
 tags_raw:
   - Domains
   - DNS
@@ -79,7 +79,7 @@ apis:
     humanURL: https://www.iana.org/time-zones
     baseURL: https://data.iana.org/time-zones/
     tags:
-      - Time Zones
+      - Timezones
       - Standards
     tags_raw:
       - Time Zones
