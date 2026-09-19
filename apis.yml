@@ -37,9 +37,9 @@ tags:
   - DNS
   - IP Addressing
   - Media Types
-  - Protocols
+  - Protocol
   - Standards
-  - Timezones
+  - Timezone
 tags_raw:
   - Domains
   - DNS
@@ -64,6 +64,10 @@ apis:
     humanURL: https://www.iana.org/protocols
     baseURL: https://www.iana.org/assignments/
     tags:
+      - Protocol
+      - Standards
+      - Registries
+    tags_raw:
       - Protocols
       - Standards
       - Registries
@@ -79,7 +83,7 @@ apis:
     humanURL: https://www.iana.org/time-zones
     baseURL: https://data.iana.org/time-zones/
     tags:
-      - Timezones
+      - Timezone
       - Standards
     tags_raw:
       - Time Zones
