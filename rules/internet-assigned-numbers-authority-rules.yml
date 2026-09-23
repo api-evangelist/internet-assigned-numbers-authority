@@ -1,12 +1,12 @@
-aid: internet-assigned-numbers-authority
-name: Internet Assigned Numbers Authority Rules
+x-aid: internet-assigned-numbers-authority
+x-name: Internet Assigned Numbers Authority Rules
 description: >-
   Validation, governance, and operational rules applied to the IANA APIs.json
   index and associated machine-readable registry artifacts.
-type: standard
-profile:
+x-type: standard
+x-profile:
   - apis.json
-governance:
+x-governance:
   source: api-evangelist
   steward: Kin Lane
   visibility: public
