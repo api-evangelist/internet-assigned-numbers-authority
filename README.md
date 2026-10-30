@@ -1,4 +1,4 @@
-# Internet Assigned Numbers Authority (internet-assigned-numbers-authority)
+# Internet Assigned Numbers Authority
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,88 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Internet Assigned Numbers Authority (IANA) performs the global
-coordination of the DNS Root, IP addressing, and other Internet protocol
-resources. IANA maintains the protocol registries, top-level domain
-delegations, time zone database, and language subtag registry that the
-Internet relies on. Bulk registry data is published as machine-readable
-files distributed via rsync and FTP rather than through a public REST API.
+The Internet Assigned Numbers Authority (IANA) performs the global coordination of the DNS Root, IP addressing, and other Internet protocol resources. IANA maintains the protocol registries, top-level domain delegations, time zone database, and language subtag registry that the Internet relies on. Bulk registry data is published as machine-readable files distributed via rsync and FTP rather than through a public REST API.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/internet-assigned-numbers-authority/refs/heads/main/apis.yml)
+**Areas:** Domains · DNS · IP Addressing · Media Types · Protocol · Standards · Timezone
 
-## Scope
+## Internet Assigned Numbers Authority on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Internet Assigned Numbers Authority is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/internet-assigned-numbers-authority/](https://apis.io/providers/internet-assigned-numbers-authority/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-- Domains
-- DNS
-- IP Addressing
-- Media Types
-- Protocols
-- Standards
-- Time Zones
+- [IANA Protocol Registries](https://apis.io/apis/internet-assigned-numbers-authority/iana-protocol-registries/) — The IANA Protocol Registries publish the authoritative assignments for Internet protocol parameters. Bulk registry data is available as XML, CSV, and…
+- [IANA Time Zone Database](https://apis.io/apis/internet-assigned-numbers-authority/iana-time-zone-database/) — The IANA Time Zone Database (tz database) provides the canonical source of time zone and daylight saving rules used by operating systems and applications…
+- [IANA Root Zone Database](https://apis.io/apis/internet-assigned-numbers-authority/iana-root-zone-database/) — The Root Zone Database represents the delegation details of top-level domains, including country code (ccTLD) and generic (gTLD) top-level domains.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-08-25
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Governance rules (1)
 
-### IANA Protocol Registries
+Spectral rulesets for the provider's contracts.
 
-The IANA Protocol Registries publish the authoritative assignments for
-Internet protocol parameters. Bulk registry data is available as XML, CSV,
-and plain-text files distributed via rsync and FTP for programmatic
-consumption.
+- [Internet Assigned Numbers Authority API Rules](https://apis.io/rules/internet-assigned-numbers-authority/internet-assigned-numbers-authority-rules/)
 
-**Human URL:** [https://www.iana.org/protocols](https://www.iana.org/protocols)
+#### Security (1)
 
-**Base URL:** https://www.iana.org/assignments/
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Properties
+- [Internet Assigned Numbers Authority Domain Security](https://apis.io/security/internet-assigned-numbers-authority/internet-assigned-numbers-authority-domain-security/)
 
-- [Documentation](https://www.iana.org/protocols)
-- [Bulk (rsync)](rsync://rsync.iana.org/assignments)
+#### Plans and pricing (1)
 
-### IANA Time Zone Database
+Published plans, tiers and prices.
 
-The IANA Time Zone Database (tz database) is the canonical source of time
-zone and daylight saving rules used by operating systems and applications
-worldwide.
+- [Internet Assigned Numbers Authority Plans Pricing](https://apis.io/plans/internet-assigned-numbers-authority/internet-assigned-numbers-authority-plans-pricing/)
 
-**Human URL:** [https://www.iana.org/time-zones](https://www.iana.org/time-zones)
+#### Rate limits (1)
 
-**Base URL:** https://data.iana.org/time-zones/
+Published request limits.
 
-#### Properties
+- [Internet Assigned Numbers Authority Rate Limits](https://apis.io/rate-limits/internet-assigned-numbers-authority/internet-assigned-numbers-authority-rate-limits/)
 
-- [Documentation](https://www.iana.org/time-zones)
-- [Releases](https://data.iana.org/time-zones/releases/)
+#### FinOps (1)
 
-### IANA Root Zone Database
+What the API costs to run, by operation.
 
-The Root Zone Database represents the delegation details of top-level
-domains, including ccTLDs and gTLDs.
+- [Internet Assigned Numbers Authority Finops](https://apis.io/finops/internet-assigned-numbers-authority/internet-assigned-numbers-authority-finops/)
 
-**Human URL:** [https://www.iana.org/domains/root/db](https://www.iana.org/domains/root/db)
+## Where to find this API
 
-#### Properties
-
-- [Documentation](https://www.iana.org/domains/root/db)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.iana.org/)
-- [GitHub Organization](https://github.com/iana-org)
-- [News](https://www.iana.org/news)
+- [Blog](https://www.iana.org/news.atom)
+- [GitHub](https://github.com/iana-org)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 11.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 72.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/internet-assigned-numbers-authority/](https://apis.io/providers/internet-assigned-numbers-authority/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Internet Assigned Numbers Authority: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/internet-assigned-numbers-authority/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
